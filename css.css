@@ -1,0 +1,42 @@
+.container{
+    background-color: white;
+}
+body{
+    background-color:white;
+
+}
+.com:hover{
+    background-color: lightgreen;
+    color: black;
+}
+form{
+    background: darkgray;
+    padding: 15px;
+    border-radius: 10px;
+}
+input,textarea,button{
+    margin: 8px 0;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts{
+    font-size: 18px;
+    text-align: center;
+}
+.contaner {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+/* Bottom left text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
